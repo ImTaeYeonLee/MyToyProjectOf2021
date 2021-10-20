@@ -52,9 +52,6 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Setting")
 		float camSpeed = 300;
 
-	float ZoomFactor;
-	bool bZoomingIn;
-
 private:
 	// 이 컴포넌트를 소유할 대상을 선언
 	class ATY_TestPawn* me;

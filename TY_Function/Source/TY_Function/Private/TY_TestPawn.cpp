@@ -88,7 +88,6 @@ ATY_TestPawn::ATY_TestPawn()
 
 	//RootComponent = CreateDefaultSubobject<USceneComponent>(TEXT("RootComponent"));
 	//AutoPossessPlayer = EAutoReceiveInput::Player0;
-
 }
 
 // Called when the game starts or when spawned
