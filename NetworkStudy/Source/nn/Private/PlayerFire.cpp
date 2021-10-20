@@ -60,7 +60,7 @@ void UPlayerFire::SetupPlayerInputComponent(class UInputComponent* PlayerInputCo
 // 사용자가 발사버튼을 누르면 총알을 발사하고 싶다.
 void UPlayerFire::Fire()
 {
-	// 디버그 라인
+	// 디버그 메시지 로그
 	UE_LOG(LogTemp, Warning, TEXT("Hit"));
 	
 	auto bullet = GetWorld()->SpawnActor<ABullet>(bulletFactory, firePosition->GetComponentLocation(), firePosition->GetComponentRotation());
@@ -142,7 +142,10 @@ void UPlayerFire::Fire()
 	//}
 	}
 	*/
+	if(!me->HasAuthority())
+	{
 	Server_OnFire(firePosition->GetComponentLocation(), firePosition->GetComponentRotation());
+	}
 }
 
 bool UPlayerFire::Server_OnFire_Validate(FVector Location, FRotator Rotation)

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\MyNetworkStudy.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{28938E15-6B06-43E3-825A-CA9BECD51821}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MyNetworkStudy.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\MyNetworkStudyEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{D9337CFA-9312-4541-B948-CED13D1CAF75}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\MyNetworkStudy">
+      <UniqueIdentifier>{A2FE3C02-1F81-485E-98FA-5EBB30C01CC1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MyNetworkStudy\MyNetworkStudy.Build.cs">
+      <Filter>Source\MyNetworkStudy</Filter>
+    </None>
+    <Filter Include="Source\MyNetworkStudy\Private">
+      <UniqueIdentifier>{C9F170B6-CF36-4721-8387-43D810289C8F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MyNetworkStudy\Private\MyActor.cpp">
+      <Filter>Source\MyNetworkStudy\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyNetworkStudy\Private\MyNetworkStudy.cpp">
+      <Filter>Source\MyNetworkStudy\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyNetworkStudy\Private\MyNetworkStudyCharacter.cpp">
+      <Filter>Source\MyNetworkStudy\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyNetworkStudy\Private\MyNetworkStudyGameMode.cpp">
+      <Filter>Source\MyNetworkStudy\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyNetworkStudy\Private\MyNetworkStudyHUD.cpp">
+      <Filter>Source\MyNetworkStudy\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyNetworkStudy\Private\MyNetworkStudyProjectile.cpp">
+      <Filter>Source\MyNetworkStudy\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\MyNetworkStudy\Public">
+      <UniqueIdentifier>{97C7999D-3101-4C98-BD2D-FE6FE0AA74C2}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\MyNetworkStudy\Public\MyActor.h">
+      <Filter>Source\MyNetworkStudy\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MyNetworkStudy\Public\MyNetworkStudy.h">
+      <Filter>Source\MyNetworkStudy\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MyNetworkStudy\Public\MyNetworkStudyCharacter.h">
+      <Filter>Source\MyNetworkStudy\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MyNetworkStudy\Public\MyNetworkStudyGameMode.h">
+      <Filter>Source\MyNetworkStudy\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MyNetworkStudy\Public\MyNetworkStudyHUD.h">
+      <Filter>Source\MyNetworkStudy\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MyNetworkStudy\Public\MyNetworkStudyProjectile.h">
+      <Filter>Source\MyNetworkStudy\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
