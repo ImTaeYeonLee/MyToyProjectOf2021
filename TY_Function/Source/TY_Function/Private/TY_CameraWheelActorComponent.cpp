@@ -14,6 +14,7 @@ UTY_CameraWheelActorComponent::UTY_CameraWheelActorComponent()
 	PrimaryComponentTick.bCanEverTick = true;
 	
 	/*
+	// 카메라컴포넌트를 플레이어에게로 이동
 	
 	playerCamera_pc = CreateDefaultSubobject<UCameraComponent>(TEXT("PlayerCameraPC"));
 	playerCamera_pc->SetupAttachment(playerCameraSpringArm, USpringArmComponent::SocketName);
@@ -58,19 +59,6 @@ void UTY_CameraWheelActorComponent::TickComponent(float DeltaTime, ELevelTick Ti
 			cameraTurnInput = cameraTurnInput.GetSafeNormal() * 100.0f;
 		}
 	}
-
-	/*if (bZoomingIn)
-	{
-		ZoomFactor += DeltaTime / 0.5f;
-	}
-	else
-	{
-		ZoomFactor -= DeltaTime / 0.25f;
-	}*/
-	//ZoomFactor = FMath::Clamp<float>(ZoomFactor, 0.0f, 1.0f);
-	//playerCamera->FieldOfView = FMath::Lerp<float>(90.0f, 60.0f, ZoomFactor);
-	//playerCameraSpringArm->TargetArmLength = FMath::Lerp<float>(400.0f, 300.0f, ZoomFactor);
-
 }
 
 void UTY_CameraWheelActorComponent::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
@@ -78,8 +66,6 @@ void UTY_CameraWheelActorComponent::SetupPlayerInputComponent(UInputComponent* P
 	PlayerInputComponent->BindAxis(TEXT("PC_CameraTurning"), this, &UTY_CameraWheelActorComponent::CameraTurning);
 
 	PlayerInputComponent->BindAxis(TEXT("PC_ZoomInWheel"), this, &UTY_CameraWheelActorComponent::ZoomInWheel);
-	//PlayerInputComponent->BindAxis(TEXT("ZoomOutWheel"), this, &UTY_CameraWheelActorComponent::ZoomOutWheel);
-
 }
 
 void UTY_CameraWheelActorComponent::CameraTurning(float Axisvalue)
@@ -89,14 +75,8 @@ void UTY_CameraWheelActorComponent::CameraTurning(float Axisvalue)
 
 void UTY_CameraWheelActorComponent::ZoomInWheel(float Axisvalue)
 {
-	me->playerCameraSpringArm->TargetArmLength = me->playerCameraSpringArm->TargetArmLength + 20.0f;
-	me->playerCameraSpringArm->TargetArmLength = FMath::Clamp(me->playerCameraSpringArm->TargetArmLength, 150.0f, 2000.0f);;
+	me->playerCameraSpringArm_pc->TargetArmLength = me->playerCameraSpringArm_pc->TargetArmLength + Axisvalue * 20.0f;
+	me->playerCameraSpringArm_pc->TargetArmLength = FMath::Clamp(me->playerCameraSpringArm_pc->TargetArmLength, 150.0f, 2000.0f);;
+	
+	UE_LOG(LogTemp, Warning, TEXT("PC taretlength : %f"), me->playerCameraSpringArm_pc->TargetArmLength);
 }
-
-void UTY_CameraWheelActorComponent::ZoomOutWheel(float Axisvalue)
-{
-	//ZoomFactor = ZoomFactor - Axisvalue / 0.25f;
-	me->playerCameraSpringArm->TargetArmLength = me->playerCameraSpringArm->TargetArmLength - 100.0f;
-	me->playerCameraSpringArm->TargetArmLength = FMath::Clamp(me->playerCameraSpringArm->TargetArmLength, 150.0f, 2000.0f);;
-}
-

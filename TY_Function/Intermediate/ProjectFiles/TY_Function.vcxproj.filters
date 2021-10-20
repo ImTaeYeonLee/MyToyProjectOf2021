@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\TY_Function.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{383F0888-7757-4E2E-9DB2-B91ABC377C5C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TY_Function.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TY_FunctionEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{0CC59CA2-B0E2-4AC5-9DF3-95DEC4CC6745}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\TY_Function">
+      <UniqueIdentifier>{127B2E77-1A19-4649-9E76-5DEFF3268707}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TY_Function\TY_Function.Build.cs">
+      <Filter>Source\TY_Function</Filter>
+    </None>
+    <Filter Include="Source\TY_Function\Private">
+      <UniqueIdentifier>{3F6EF169-676E-47F4-B00F-ECAE262D2286}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TY_Function\Private\GrabActorComponent.cpp">
+      <Filter>Source\TY_Function\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TY_Function\Private\HandActorComponent.cpp">
+      <Filter>Source\TY_Function\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TY_Function\Private\MoveActorComponent.cpp">
+      <Filter>Source\TY_Function\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TY_Function\Private\PickUpActor.cpp">
+      <Filter>Source\TY_Function\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TY_Function\Private\ShootPlayer.cpp">
+      <Filter>Source\TY_Function\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TY_Function\Private\TY_CameraActorComponent.cpp">
+      <Filter>Source\TY_Function\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TY_Function\Private\TY_CameraWheelActorComponent.cpp">
+      <Filter>Source\TY_Function\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TY_Function\Private\TY_Function.cpp">
+      <Filter>Source\TY_Function\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TY_Function\Private\TY_FunctionCharacter.cpp">
+      <Filter>Source\TY_Function\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TY_Function\Private\TY_FunctionGameMode.cpp">
+      <Filter>Source\TY_Function\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TY_Function\Private\TY_MoveActorComponent.cpp">
+      <Filter>Source\TY_Function\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TY_Function\Private\TY_TestPawn.cpp">
+      <Filter>Source\TY_Function\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TY_Function\Private\VRHandAnimInstance.cpp">
+      <Filter>Source\TY_Function\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TY_Function\Private\VR_Player.cpp">
+      <Filter>Source\TY_Function\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\TY_Function\Public">
+      <UniqueIdentifier>{C0AF941B-0096-4A66-A9E9-C78A7E20CC7A}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\TY_Function\Public\GrabActorComponent.h">
+      <Filter>Source\TY_Function\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TY_Function\Public\HandActorComponent.h">
+      <Filter>Source\TY_Function\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TY_Function\Public\MoveActorComponent.h">
+      <Filter>Source\TY_Function\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TY_Function\Public\PickUpActor.h">
+      <Filter>Source\TY_Function\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TY_Function\Public\ShootPlayer.h">
+      <Filter>Source\TY_Function\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TY_Function\Public\TY_CameraActorComponent.h">
+      <Filter>Source\TY_Function\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TY_Function\Public\TY_CameraWheelActorComponent.h">
+      <Filter>Source\TY_Function\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TY_Function\Public\TY_Function.h">
+      <Filter>Source\TY_Function\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TY_Function\Public\TY_FunctionCharacter.h">
+      <Filter>Source\TY_Function\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TY_Function\Public\TY_FunctionGameMode.h">
+      <Filter>Source\TY_Function\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TY_Function\Public\TY_MoveActorComponent.h">
+      <Filter>Source\TY_Function\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TY_Function\Public\TY_TestPawn.h">
+      <Filter>Source\TY_Function\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TY_Function\Public\VRHandAnimInstance.h">
+      <Filter>Source\TY_Function\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TY_Function\Public\VR_Player.h">
+      <Filter>Source\TY_Function\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

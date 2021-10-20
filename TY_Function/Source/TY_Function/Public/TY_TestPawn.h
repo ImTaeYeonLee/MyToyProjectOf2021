@@ -45,9 +45,9 @@ public:
 
 	// 카메라 줌인 줌아웃 기능을 위해, SpringArm 컴포넌트 선언
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "PlayerCamera")
-		class USpringArmComponent* playerCameraSpringArm;
+		class USpringArmComponent* playerCameraSpringArm_pc;
 
-	void OnZoom(float Axis);
+	void OnZoom(float Axisvalue);
 
 	float ZoomFactor;
 	bool bZoomingIn;
@@ -65,6 +65,9 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = PlayerSettings)
 		class UCameraComponent* playerCam_vr;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = PlayerSettings)
+		class USpringArmComponent* playerCameraSpringArm_vr;
 
 	UPROPERTY(EditAnywhere, Category = PlayerSettings)
 		class UMotionControllerComponent* leftController;

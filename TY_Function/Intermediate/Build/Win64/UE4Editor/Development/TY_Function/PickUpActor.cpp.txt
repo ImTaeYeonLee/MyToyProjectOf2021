@@ -1,0 +1,7 @@
+C:\Users\Default.DESKTOP-6F3BTUF\Documents\GitHub\MyToyProjectOf2021\TY_Function\Intermediate\Build\Win64\UE4Editor\Development\TY_Function\Definitions.TY_Function.h
+C:\Users\Default.DESKTOP-6F3BTUF\Documents\GitHub\MyToyProjectOf2021\TY_Function\Source\TY_Function\Public\PickUpActor.h
+C:\Users\Default.DESKTOP-6F3BTUF\Documents\GitHub\MyToyProjectOf2021\TY_Function\Intermediate\Build\Win64\UE4Editor\Inc\TY_Function\PickUpActor.generated.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Components/BoxComponent.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BoxComponent.generated.h

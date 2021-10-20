@@ -31,7 +31,7 @@ public:
 
 	// Ä«¸Þ¶ó ÁÜ ÀÎ, ÁÜ ¾Æ¿ô
 	void ZoomInWheel(float Axisvalue);
-	void ZoomOutWheel(float Axisvalue);
+	//void ZoomOutWheel(float Axisvalue);
 	
 	
 	/*

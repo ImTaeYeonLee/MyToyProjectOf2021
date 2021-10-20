@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "TY_Function",
+			"Path": "C:\\Users\\Default.DESKTOP-6F3BTUF\\Documents\\GitHub\\MyToyProjectOf2021\\TY_Function\\Source\\TY_Function.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "TY_FunctionEditor",
+			"Path": "C:\\Users\\Default.DESKTOP-6F3BTUF\\Documents\\GitHub\\MyToyProjectOf2021\\TY_Function\\Source\\TY_FunctionEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

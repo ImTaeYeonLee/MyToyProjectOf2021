@@ -1,0 +1,2 @@
+C:\Users\Default.DESKTOP-6F3BTUF\Documents\GitHub\MyToyProjectOf2021\TY_Function\Intermediate\Build\Win64\UE4Editor\Development\TY_Function\Definitions.TY_Function.h
+C:\Users\Default.DESKTOP-6F3BTUF\Documents\GitHub\MyToyProjectOf2021\TY_Function\Source\TY_Function\Public\TY_Function.h
