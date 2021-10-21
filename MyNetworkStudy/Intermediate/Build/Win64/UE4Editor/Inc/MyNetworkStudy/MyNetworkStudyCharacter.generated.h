@@ -17,18 +17,27 @@ struct FRotator;
 
 #define MyNetworkStudy_Source_MyNetworkStudy_Public_MyNetworkStudyCharacter_h_20_SPARSE_DATA
 #define MyNetworkStudy_Source_MyNetworkStudy_Public_MyNetworkStudyCharacter_h_20_RPC_WRAPPERS \
+	virtual bool Multi_OnFire_Validate(FVector , FRotator ); \
+	virtual void Multi_OnFire_Implementation(FVector Location, FRotator Rotation); \
 	virtual bool Server_OnFire_Validate(FVector , FRotator ); \
 	virtual void Server_OnFire_Implementation(FVector Location, FRotator Rotation); \
  \
+	DECLARE_FUNCTION(execMulti_OnFire); \
 	DECLARE_FUNCTION(execServer_OnFire);
 
 
 #define MyNetworkStudy_Source_MyNetworkStudy_Public_MyNetworkStudyCharacter_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execMulti_OnFire); \
 	DECLARE_FUNCTION(execServer_OnFire);
 
 
 #define MyNetworkStudy_Source_MyNetworkStudy_Public_MyNetworkStudyCharacter_h_20_EVENT_PARMS \
+	struct MyNetworkStudyCharacter_eventMulti_OnFire_Parms \
+	{ \
+		FVector Location; \
+		FRotator Rotation; \
+	}; \
 	struct MyNetworkStudyCharacter_eventServer_OnFire_Parms \
 	{ \
 		FVector Location; \

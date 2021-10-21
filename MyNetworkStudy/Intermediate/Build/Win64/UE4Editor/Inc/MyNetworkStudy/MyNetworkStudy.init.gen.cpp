@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeMyNetworkStudy_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xE6A8172D,
+				0x27B80760,
 				0x5D8829D0,
 				METADATA_PARAMS(nullptr, 0)
 			};

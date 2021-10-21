@@ -27,6 +27,20 @@ void EmptyLinkFunctionForGeneratedCodeMyNetworkStudyCharacter() {}
 	ENGINE_API UClass* Z_Construct_UClass_USoundBase_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UAnimMontage_NoRegister();
 // End Cross Module References
+	DEFINE_FUNCTION(AMyNetworkStudyCharacter::execMulti_OnFire)
+	{
+		P_GET_STRUCT(FVector,Z_Param_Location);
+		P_GET_STRUCT(FRotator,Z_Param_Rotation);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		if (!P_THIS->Multi_OnFire_Validate(Z_Param_Location,Z_Param_Rotation))
+		{
+			RPC_ValidateFailed(TEXT("Multi_OnFire_Validate"));
+			return;
+		}
+		P_THIS->Multi_OnFire_Implementation(Z_Param_Location,Z_Param_Rotation);
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(AMyNetworkStudyCharacter::execServer_OnFire)
 	{
 		P_GET_STRUCT(FVector,Z_Param_Location);
@@ -41,6 +55,14 @@ void EmptyLinkFunctionForGeneratedCodeMyNetworkStudyCharacter() {}
 		P_THIS->Server_OnFire_Implementation(Z_Param_Location,Z_Param_Rotation);
 		P_NATIVE_END;
 	}
+	static FName NAME_AMyNetworkStudyCharacter_Multi_OnFire = FName(TEXT("Multi_OnFire"));
+	void AMyNetworkStudyCharacter::Multi_OnFire(FVector Location, FRotator Rotation)
+	{
+		MyNetworkStudyCharacter_eventMulti_OnFire_Parms Parms;
+		Parms.Location=Location;
+		Parms.Rotation=Rotation;
+		ProcessEvent(FindFunctionChecked(NAME_AMyNetworkStudyCharacter_Multi_OnFire),&Parms);
+	}
 	static FName NAME_AMyNetworkStudyCharacter_Server_OnFire = FName(TEXT("Server_OnFire"));
 	void AMyNetworkStudyCharacter::Server_OnFire(FVector Location, FRotator Rotation)
 	{
@@ -53,9 +75,43 @@ void EmptyLinkFunctionForGeneratedCodeMyNetworkStudyCharacter() {}
 	{
 		UClass* Class = AMyNetworkStudyCharacter::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "Multi_OnFire", &AMyNetworkStudyCharacter::execMulti_OnFire },
 			{ "Server_OnFire", &AMyNetworkStudyCharacter::execServer_OnFire },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AMyNetworkStudyCharacter_Multi_OnFire_Statics
+	{
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_Location;
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_Rotation;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AMyNetworkStudyCharacter_Multi_OnFire_Statics::NewProp_Location = { "Location", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MyNetworkStudyCharacter_eventMulti_OnFire_Parms, Location), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AMyNetworkStudyCharacter_Multi_OnFire_Statics::NewProp_Rotation = { "Rotation", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MyNetworkStudyCharacter_eventMulti_OnFire_Parms, Rotation), Z_Construct_UScriptStruct_FRotator, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AMyNetworkStudyCharacter_Multi_OnFire_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMyNetworkStudyCharacter_Multi_OnFire_Statics::NewProp_Location,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMyNetworkStudyCharacter_Multi_OnFire_Statics::NewProp_Rotation,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMyNetworkStudyCharacter_Multi_OnFire_Statics::Function_MetaDataParams[] = {
+		{ "Comment", "// ??\xc6\xae??\xc5\xa9 ??\xc6\xbc\xc4\xb3??\xc6\xae?? ???? ?\xd6\xb4? ???? \xc4\xb3???\xcd\xbf??? ?\xd2\xb8??? ????????! (??\xc3\xbc?? ????)\n" },
+		{ "ModuleRelativePath", "Public/MyNetworkStudyCharacter.h" },
+		{ "ToolTip", "??\xc6\xae??\xc5\xa9 ??\xc6\xbc\xc4\xb3??\xc6\xae?? ???? ?\xd6\xb4? ???? \xc4\xb3???\xcd\xbf??? ?\xd2\xb8??? ????????! (??\xc3\xbc?? ????)" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMyNetworkStudyCharacter_Multi_OnFire_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMyNetworkStudyCharacter, nullptr, "Multi_OnFire", nullptr, nullptr, sizeof(MyNetworkStudyCharacter_eventMulti_OnFire_Parms), Z_Construct_UFunction_AMyNetworkStudyCharacter_Multi_OnFire_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AMyNetworkStudyCharacter_Multi_OnFire_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x80884CC0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMyNetworkStudyCharacter_Multi_OnFire_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AMyNetworkStudyCharacter_Multi_OnFire_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AMyNetworkStudyCharacter_Multi_OnFire()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AMyNetworkStudyCharacter_Multi_OnFire_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_AMyNetworkStudyCharacter_Server_OnFire_Statics
 	{
@@ -150,6 +206,7 @@ void EmptyLinkFunctionForGeneratedCodeMyNetworkStudyCharacter() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_MyNetworkStudy,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AMyNetworkStudyCharacter_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AMyNetworkStudyCharacter_Multi_OnFire, "Multi_OnFire" }, // 733251144
 		{ &Z_Construct_UFunction_AMyNetworkStudyCharacter_Server_OnFire, "Server_OnFire" }, // 3153459015
 	};
 #if WITH_METADATA
@@ -293,7 +350,7 @@ void EmptyLinkFunctionForGeneratedCodeMyNetworkStudyCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMyNetworkStudyCharacter, 1325795891);
+	IMPLEMENT_CLASS(AMyNetworkStudyCharacter, 1133309989);
 	template<> MYNETWORKSTUDY_API UClass* StaticClass<AMyNetworkStudyCharacter>()
 	{
 		return AMyNetworkStudyCharacter::StaticClass();

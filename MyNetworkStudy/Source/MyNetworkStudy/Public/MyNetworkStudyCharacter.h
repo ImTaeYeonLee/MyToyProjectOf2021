@@ -80,9 +80,9 @@ protected:
 
 	// 네트워크 멀티캐스트로 관련 있는 모든 캐릭터에게 소리를 전달하자! (주체는 서버)
 	UFUNCTION(NetMulticast, Reliable, WithValidation)
-	void Multi_OnFire();
-	bool Multi_OnFire_Validate();
-	void Multi_OnFire_Implementation();
+	void Multi_OnFire(FVector Location, FRotator Rotation);
+	bool Multi_OnFire_Validate(FVector Location, FRotator Rotation);
+	void Multi_OnFire_Implementation(FVector Location, FRotator Rotation);
 
 	/** Handles moving forward/backward */
 	void MoveForward(float Val);

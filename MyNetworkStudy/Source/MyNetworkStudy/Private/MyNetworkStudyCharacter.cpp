@@ -106,7 +106,17 @@ void AMyNetworkStudyCharacter::OnFire()
 
 			if (!HasAuthority()) // Fire 를 실행하는 개체가 권한이 없다면 아래를 실행합니다. 
 			{
+			// 클라이언트일 경우
 			Server_OnFire(SpawnLocation, SpawnRotation);
+			}
+			else 
+			{
+				// 실행하는 개체가 Server 일 경우
+				FActorSpawnParameters ActorSpawnParams;
+				ActorSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButDontSpawnIfColliding;
+
+				World->SpawnActor<AMyNetworkStudyProjectile>(ProjectileClass, SpawnLocation, SpawnRotation, ActorSpawnParams);
+				Multi_OnFire(SpawnLocation, SpawnRotation); // 사운드 기능
 			}
 		}
 	}
@@ -137,24 +147,41 @@ bool AMyNetworkStudyCharacter::Server_OnFire_Validate(FVector Location, FRotator
 void AMyNetworkStudyCharacter::Server_OnFire_Implementation(FVector Location, FRotator Rotation)
 {
 	UE_LOG(LogTemp, Warning, TEXT("Server_OnFire_Implementation HAS BEEN CALLED"));
+
+	Multi_OnFire(Location, Rotation); // Multicast 함수 호출
+}
+
+bool AMyNetworkStudyCharacter::Multi_OnFire_Validate(FVector Location, FRotator Rotation)
+{
+	return true; // true 로 변경
+}
+
+void AMyNetworkStudyCharacter::Multi_OnFire_Implementation(FVector Location, FRotator Rotation)
+{
+	// try and play the sound if specified
 	//Set Spawn Collision Handling Override (스폰 시 다른 개체와 충돌할 경우 무시할지 말지 재정의하여 설정)
 	FActorSpawnParameters ActorSpawnParams; // 액터 스폰 설정에 대한 값 파라미터 ActorSpawnParams 라는 이름의 변수를 선언했습니다.
 	ActorSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButDontSpawnIfColliding; //(가능한 경우 조정하지만 충돌하는 경우 생성하지 마십시오.)
 
 	GetWorld()->SpawnActor<AMyNetworkStudyProjectile>(ProjectileClass, Location, Rotation, ActorSpawnParams);
-}
-
-bool AMyNetworkStudyCharacter::Multi_OnFire_Validate()
-{
-	return true;
-}
-
-void AMyNetworkStudyCharacter::Multi_OnFire_Implementation()
-{
-	// try and play the sound if specified
+	
+	UE_LOG(LogTemp, Warning, TEXT("Multi_OnFire_Implementation HAS BEEN CALLED"));
 	if (FireSound != nullptr)
 	{
-		UGameplayStatics::PlaySoundAtLocation(this, FireSound, GetActorLocation());
+		UGameplayStatics::PlaySoundAtLocation(this, FireSound, GetActorLocation()); // OnFire 하단부의 if (FireSound != nullptr) 를 카피&페이스트
+		UE_LOG(LogTemp, Warning, TEXT("Sound HAS BEEN CALLED"));
+
+	}
+	if (FireAnimation != nullptr)
+	{
+		// Get the animation object for the arms mesh
+		UAnimInstance* AnimInstance = Mesh1P->GetAnimInstance();
+		if (AnimInstance != nullptr)
+		{
+			AnimInstance->Montage_Play(FireAnimation, 1.f);
+			UE_LOG(LogTemp, Warning, TEXT("Animation HAS BEEN CALLED"));
+
+		}
 	}
 }
 
