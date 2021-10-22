@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\MyNetworkStudy.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{EA50D0A2-35A1-4466-9CF0-2864FCAC85F9}</UniqueIdentifier>
+      <UniqueIdentifier>{650023D0-CA09-4CC4-B1FB-9DF35E965E91}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\MyNetworkStudy.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{302F3E27-1B55-4394-AB9E-EBEAA9E1714F}</UniqueIdentifier>
+      <UniqueIdentifier>{07B8BA21-076C-4B58-B83E-C616638406D0}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,22 +30,22 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Plugins">
-      <UniqueIdentifier>{B128D9C8-2056-4DDD-90F0-2B80F84718CE}</UniqueIdentifier>
+      <UniqueIdentifier>{E4DC01E6-48E9-420D-9AF3-283791E35A07}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\AdvancedSessions">
-      <UniqueIdentifier>{CC0A9199-5D36-40CE-8DC5-26C12459E400}</UniqueIdentifier>
+      <UniqueIdentifier>{4030AC2E-F8C7-4840-BF38-2AD626A4ECBA}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\AdvancedSessions\Source">
-      <UniqueIdentifier>{12BC77EB-290A-4054-AC96-FF9DFE8D0531}</UniqueIdentifier>
+      <UniqueIdentifier>{D375A7A8-BF89-4EA4-A83F-91D1D3B0AF73}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\AdvancedSessions\Source\AdvancedSessions">
-      <UniqueIdentifier>{22D88721-5F49-44CD-BEDF-6B285D76186C}</UniqueIdentifier>
+      <UniqueIdentifier>{25B38698-5DC3-4BA5-A632-5B58E2E69815}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\AdvancedSessions\Source\AdvancedSessions\AdvancedSessions.Build.cs">
       <Filter>Plugins\AdvancedSessions\Source\AdvancedSessions</Filter>
     </None>
     <Filter Include="Plugins\AdvancedSessions\Source\AdvancedSessions\Classes">
-      <UniqueIdentifier>{4000C056-B887-42F0-8D0F-DA898BDF0404}</UniqueIdentifier>
+      <UniqueIdentifier>{8F359D3E-2D68-4D41-A9BD-92A80222EBAF}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\AdvancedSessions\Source\AdvancedSessions\Classes\AdvancedExternalUILibrary.h">
       <Filter>Plugins\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
@@ -117,7 +117,7 @@
       <Filter>Plugins\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
     </ClInclude>
     <Filter Include="Plugins\AdvancedSessions\Source\AdvancedSessions\Private">
-      <UniqueIdentifier>{7E7F43A7-D0EE-454B-BDF5-6DDA281BFEE8}</UniqueIdentifier>
+      <UniqueIdentifier>{19534211-91E8-49F0-99FB-3FCD05EF43FA}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\AdvancedSessions\Source\AdvancedSessions\Private\AdvancedExternalUILibrary.cpp">
       <Filter>Plugins\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
@@ -183,34 +183,34 @@
       <Filter>Plugins\AdvancedSessions</Filter>
     </None>
     <Filter Include="Plugins\AdvancedSessions\Resources">
-      <UniqueIdentifier>{B27F31A8-2B41-4115-A801-148458FD03F7}</UniqueIdentifier>
+      <UniqueIdentifier>{8AFA6569-C0A8-4F7F-B368-7A4634797C31}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\AdvancedSessions\Resources\Icon128.png">
       <Filter>Plugins\AdvancedSessions\Resources</Filter>
     </None>
     <Filter Include="Plugins\AdvancedSteamSessions">
-      <UniqueIdentifier>{B7A396CD-8F2F-40A3-8372-76B0206F489C}</UniqueIdentifier>
+      <UniqueIdentifier>{22C4E7CF-F245-48B4-A731-8209421E1E04}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\AdvancedSteamSessions\AdvancedSteamSessions.uplugin">
       <Filter>Plugins\AdvancedSteamSessions</Filter>
     </None>
     <Filter Include="Plugins\AdvancedSteamSessions\Resources">
-      <UniqueIdentifier>{197E9F58-CEE4-4C24-96DB-47525CAD23C5}</UniqueIdentifier>
+      <UniqueIdentifier>{BC53A2A2-2386-416B-BF78-AE2F4D69ED7D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\AdvancedSteamSessions\Resources\Icon128.png">
       <Filter>Plugins\AdvancedSteamSessions\Resources</Filter>
     </None>
     <Filter Include="Plugins\AdvancedSteamSessions\Source">
-      <UniqueIdentifier>{13583A7C-C059-465F-BBA4-A1FFB5C346ED}</UniqueIdentifier>
+      <UniqueIdentifier>{A078136D-5ACB-4F9D-AD91-CB5815862BA2}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\AdvancedSteamSessions\Source\AdvancedSteamSessions">
-      <UniqueIdentifier>{EEEA9B87-A8B0-478D-A190-1B13F4451071}</UniqueIdentifier>
+      <UniqueIdentifier>{148C11F5-7A90-43C4-BF4C-B0725597D8E8}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\AdvancedSteamSessions\Source\AdvancedSteamSessions\AdvancedSteamSessions.Build.cs">
       <Filter>Plugins\AdvancedSteamSessions\Source\AdvancedSteamSessions</Filter>
     </None>
     <Filter Include="Plugins\AdvancedSteamSessions\Source\AdvancedSteamSessions\Classes">
-      <UniqueIdentifier>{BD993062-10FA-47E8-AA10-A8D3860DAD79}</UniqueIdentifier>
+      <UniqueIdentifier>{9D7846FB-2D54-4447-A1CD-F6F4CB9161A0}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\AdvancedSteamSessions\Source\AdvancedSteamSessions\Classes\AdvancedSteamFriendsLibrary.h">
       <Filter>Plugins\AdvancedSteamSessions\Source\AdvancedSteamSessions\Classes</Filter>
@@ -231,7 +231,7 @@
       <Filter>Plugins\AdvancedSteamSessions\Source\AdvancedSteamSessions\Classes</Filter>
     </ClInclude>
     <Filter Include="Plugins\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private">
-      <UniqueIdentifier>{CFA58715-6D91-4F22-B5D3-9BD54679F64C}</UniqueIdentifier>
+      <UniqueIdentifier>{BA3D63FB-8D24-405B-9D5A-49799C6DEA1B}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private\AdvancedSteamFriendsLibrary.cpp">
       <Filter>Plugins\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private</Filter>
@@ -258,13 +258,13 @@
       <Filter>Plugins\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private</Filter>
     </None>
     <Filter Include="Source\MyNetworkStudy">
-      <UniqueIdentifier>{40F9E911-B970-4B3E-8EEA-7B1049ED3C8D}</UniqueIdentifier>
+      <UniqueIdentifier>{1BBB02D9-99BB-4EA0-8285-F92078202A24}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\MyNetworkStudy\MyNetworkStudy.Build.cs">
       <Filter>Source\MyNetworkStudy</Filter>
     </None>
     <Filter Include="Source\MyNetworkStudy\Private">
-      <UniqueIdentifier>{37955F24-0085-4A75-9BB9-BF330236DAE5}</UniqueIdentifier>
+      <UniqueIdentifier>{DC00FF0D-1D6B-4073-BA14-F76B8D8F2D99}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\MyNetworkStudy\Private\MyActor.cpp">
       <Filter>Source\MyNetworkStudy\Private</Filter>
@@ -285,7 +285,7 @@
       <Filter>Source\MyNetworkStudy\Private</Filter>
     </ClCompile>
     <Filter Include="Source\MyNetworkStudy\Public">
-      <UniqueIdentifier>{2CECFC46-776F-4107-8B13-2653EFE344A9}</UniqueIdentifier>
+      <UniqueIdentifier>{F0CAB9B7-490C-4CE5-919D-D3B946DA7F96}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\MyNetworkStudy\Public\MyActor.h">
       <Filter>Source\MyNetworkStudy\Public</Filter>

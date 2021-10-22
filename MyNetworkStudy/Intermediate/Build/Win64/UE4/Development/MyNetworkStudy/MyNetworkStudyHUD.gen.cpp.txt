@@ -1,0 +1,10 @@
+C:\Users\TFG5076XG\Desktop\MyNetworkStudy\Intermediate\Build\Win64\UE4\Development\MyNetworkStudy\Definitions.MyNetworkStudy.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\TFG5076XG\Desktop\MyNetworkStudy\Source\MyNetworkStudy/Public/MyNetworkStudyHUD.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/HUD.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/HUDHitBox.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/DebugTextInfo.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\DebugTextInfo.generated.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\HUD.generated.h
+C:\Users\TFG5076XG\Desktop\MyNetworkStudy\Intermediate\Build\Win64\UE4\Inc\MyNetworkStudy\MyNetworkStudyHUD.generated.h

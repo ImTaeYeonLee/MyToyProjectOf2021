@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "MyNetworkStudy",
-			"Path": "C:\\Users\\Default.DESKTOP-6F3BTUF\\Documents\\GitHub\\MyToyProjectOf2021\\MyNetworkStudy\\Source\\MyNetworkStudy.Target.cs",
+			"Path": "C:\\Users\\TFG5076XG\\Desktop\\MyNetworkStudy\\Source\\MyNetworkStudy.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "MyNetworkStudyEditor",
-			"Path": "C:\\Users\\Default.DESKTOP-6F3BTUF\\Documents\\GitHub\\MyToyProjectOf2021\\MyNetworkStudy\\Source\\MyNetworkStudyEditor.Target.cs",
+			"Path": "C:\\Users\\TFG5076XG\\Desktop\\MyNetworkStudy\\Source\\MyNetworkStudyEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

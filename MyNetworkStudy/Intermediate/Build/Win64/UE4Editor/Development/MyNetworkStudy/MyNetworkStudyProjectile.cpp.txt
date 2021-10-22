@@ -1,6 +1,6 @@
-C:\Users\Default.DESKTOP-6F3BTUF\Documents\GitHub\MyToyProjectOf2021\MyNetworkStudy\Intermediate\Build\Win64\UE4Editor\Development\MyNetworkStudy\Definitions.MyNetworkStudy.h
-C:\Users\Default.DESKTOP-6F3BTUF\Documents\GitHub\MyToyProjectOf2021\MyNetworkStudy\Source\MyNetworkStudy\Public\MyNetworkStudyProjectile.h
-C:\Users\Default.DESKTOP-6F3BTUF\Documents\GitHub\MyToyProjectOf2021\MyNetworkStudy\Intermediate\Build\Win64\UE4Editor\Inc\MyNetworkStudy\MyNetworkStudyProjectile.generated.h
+C:\Users\TFG5076XG\Desktop\MyNetworkStudy\Intermediate\Build\Win64\UE4Editor\Development\MyNetworkStudy\Definitions.MyNetworkStudy.h
+C:\Users\TFG5076XG\Desktop\MyNetworkStudy\Source\MyNetworkStudy\Public\MyNetworkStudyProjectile.h
+C:\Users\TFG5076XG\Desktop\MyNetworkStudy\Intermediate\Build\Win64\UE4Editor\Inc\MyNetworkStudy\MyNetworkStudyProjectile.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/ProjectileMovementComponent.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/MovementComponent.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MovementComponent.generated.h
