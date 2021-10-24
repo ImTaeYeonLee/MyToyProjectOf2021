@@ -1,2 +1,0 @@
-C:\Users\TFG5076XG\Desktop\MyNetworkStudy\Intermediate\Build\Win64\UE4\Development\MyNetworkStudy\Definitions.MyNetworkStudy.h
-C:\Users\TFG5076XG\Desktop\MyNetworkStudy\Source\MyNetworkStudy\Public\MyNetworkStudy.h

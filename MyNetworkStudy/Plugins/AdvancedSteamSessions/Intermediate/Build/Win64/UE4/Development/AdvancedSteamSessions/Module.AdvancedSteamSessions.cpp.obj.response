@@ -30,7 +30,7 @@
 /wd4244
 /wd4838
 /I .
-/I C:\Users\TFG5076XG\Desktop\MyNetworkStudy\Plugins\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private
+/I C:\Users\TFG5076XG\Documents\GitHub\MyToyProjectOf2021\MyNetworkStudy\Plugins\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private
 /I ..\Plugins\Online\OnlineSubsystem\Intermediate\Build\Win64\UE4\Inc\OnlineSubsystem
 /I ..\Plugins\Online\OnlineSubsystem
 /I ..\Plugins\Online\OnlineSubsystem\Source
@@ -126,13 +126,13 @@
 /I Developer\TargetPlatform\Public
 /I ..\Intermediate\Build\Win64\UE4\Inc\AnimationCore
 /I Runtime\AnimationCore\Public
-/I C:\Users\TFG5076XG\Desktop\MyNetworkStudy\Plugins\AdvancedSteamSessions\Intermediate\Build\Win64\UE4\Inc\AdvancedSteamSessions
-/I C:\Users\TFG5076XG\Desktop\MyNetworkStudy\Plugins\AdvancedSteamSessions\Source
+/I C:\Users\TFG5076XG\Documents\GitHub\MyToyProjectOf2021\MyNetworkStudy\Plugins\AdvancedSteamSessions\Intermediate\Build\Win64\UE4\Inc\AdvancedSteamSessions
+/I C:\Users\TFG5076XG\Documents\GitHub\MyToyProjectOf2021\MyNetworkStudy\Plugins\AdvancedSteamSessions\Source
 /I ..\Plugins\Online\OnlineSubsystemSteam\Source\Private
-/I C:\Users\TFG5076XG\Desktop\MyNetworkStudy\Plugins\AdvancedSteamSessions\Source\AdvancedSteamSessions\Classes
-/I C:\Users\TFG5076XG\Desktop\MyNetworkStudy\Plugins\AdvancedSessions\Intermediate\Build\Win64\UE4\Inc\AdvancedSessions
-/I C:\Users\TFG5076XG\Desktop\MyNetworkStudy\Plugins\AdvancedSessions\Source
-/I C:\Users\TFG5076XG\Desktop\MyNetworkStudy\Plugins\AdvancedSessions\Source\AdvancedSessions\Classes
+/I C:\Users\TFG5076XG\Documents\GitHub\MyToyProjectOf2021\MyNetworkStudy\Plugins\AdvancedSteamSessions\Source\AdvancedSteamSessions\Classes
+/I C:\Users\TFG5076XG\Documents\GitHub\MyToyProjectOf2021\MyNetworkStudy\Plugins\AdvancedSessions\Intermediate\Build\Win64\UE4\Inc\AdvancedSessions
+/I C:\Users\TFG5076XG\Documents\GitHub\MyToyProjectOf2021\MyNetworkStudy\Plugins\AdvancedSessions\Source
+/I C:\Users\TFG5076XG\Documents\GitHub\MyToyProjectOf2021\MyNetworkStudy\Plugins\AdvancedSessions\Source\AdvancedSessions\Classes
 /I ThirdParty\Steamworks\Steamv147\sdk\public
 /I ..\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\UE4\Inc\OnlineSubsystemSteam
 /I ..\Plugins\Online\OnlineSubsystemSteam
@@ -167,12 +167,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"C:\Users\TFG5076XG\Desktop\MyNetworkStudy\Intermediate\Build\Win64\MyNetworkStudy\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"C:\Users\TFG5076XG\Desktop\MyNetworkStudy\Intermediate\Build\Win64\MyNetworkStudy\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Users\TFG5076XG\Desktop\MyNetworkStudy\Intermediate\Build\Win64\MyNetworkStudy\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"C:\Users\TFG5076XG\Desktop\MyNetworkStudy\Plugins\AdvancedSteamSessions\Intermediate\Build\Win64\UE4\Development\AdvancedSteamSessions\Module.AdvancedSteamSessions.cpp"
-/FI"C:\Users\TFG5076XG\Desktop\MyNetworkStudy\Plugins\AdvancedSteamSessions\Intermediate\Build\Win64\UE4\Development\AdvancedSteamSessions\Definitions.AdvancedSteamSessions.h"
-/Fo"C:\Users\TFG5076XG\Desktop\MyNetworkStudy\Plugins\AdvancedSteamSessions\Intermediate\Build\Win64\UE4\Development\AdvancedSteamSessions\Module.AdvancedSteamSessions.cpp.obj"
+/FI"C:\Users\TFG5076XG\Documents\GitHub\MyToyProjectOf2021\MyNetworkStudy\Intermediate\Build\Win64\MyNetworkStudy\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"C:\Users\TFG5076XG\Documents\GitHub\MyToyProjectOf2021\MyNetworkStudy\Intermediate\Build\Win64\MyNetworkStudy\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\Users\TFG5076XG\Documents\GitHub\MyToyProjectOf2021\MyNetworkStudy\Intermediate\Build\Win64\MyNetworkStudy\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"C:\Users\TFG5076XG\Documents\GitHub\MyToyProjectOf2021\MyNetworkStudy\Plugins\AdvancedSteamSessions\Intermediate\Build\Win64\UE4\Development\AdvancedSteamSessions\Module.AdvancedSteamSessions.cpp"
+/FI"C:\Users\TFG5076XG\Documents\GitHub\MyToyProjectOf2021\MyNetworkStudy\Plugins\AdvancedSteamSessions\Intermediate\Build\Win64\UE4\Development\AdvancedSteamSessions\Definitions.AdvancedSteamSessions.h"
+/Fo"C:\Users\TFG5076XG\Documents\GitHub\MyToyProjectOf2021\MyNetworkStudy\Plugins\AdvancedSteamSessions\Intermediate\Build\Win64\UE4\Development\AdvancedSteamSessions\Module.AdvancedSteamSessions.cpp.obj"
 /TP
 /GR-
 /W4

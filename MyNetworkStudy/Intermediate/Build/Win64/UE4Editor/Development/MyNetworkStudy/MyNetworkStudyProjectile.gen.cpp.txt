@@ -1,5 +1,0 @@
-C:\Users\TFG5076XG\Desktop\MyNetworkStudy\Intermediate\Build\Win64\UE4Editor\Development\MyNetworkStudy\Definitions.MyNetworkStudy.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-C:\Users\TFG5076XG\Desktop\MyNetworkStudy\Source\MyNetworkStudy/Public/MyNetworkStudyProjectile.h
-C:\Users\TFG5076XG\Desktop\MyNetworkStudy\Intermediate\Build\Win64\UE4Editor\Inc\MyNetworkStudy\MyNetworkStudyProjectile.generated.h

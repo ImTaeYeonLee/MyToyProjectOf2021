@@ -1,3 +1,0 @@
-C:\Users\TFG5076XG\Desktop\MyNetworkStudy\Intermediate\Build\Win64\UE4Editor\Development\MyNetworkStudy\Definitions.MyNetworkStudy.h
-C:\Users\TFG5076XG\Desktop\MyNetworkStudy\Source\MyNetworkStudy\Public\MyActor.h
-C:\Users\TFG5076XG\Desktop\MyNetworkStudy\Intermediate\Build\Win64\UE4Editor\Inc\MyNetworkStudy\MyActor.generated.h
