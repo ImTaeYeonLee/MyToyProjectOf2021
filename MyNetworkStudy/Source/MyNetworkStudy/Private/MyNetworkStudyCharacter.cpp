@@ -2,6 +2,8 @@
 
 #include "MyNetworkStudyCharacter.h"
 #include "MyNetworkStudyProjectile.h"
+#include <Engine/Engine.h>
+#include "AudioDeviceManager.h"
 #include "Animation/AnimInstance.h"
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
@@ -62,6 +64,14 @@ void AMyNetworkStudyCharacter::BeginPlay()
 
 	//Attach gun mesh component to Skeleton, doing it here because the skeleton is not yet created in the constructor
 	FP_Gun->AttachToComponent(Mesh1P, FAttachmentTransformRules(EAttachmentRule::SnapToTarget, true), TEXT("GripPoint"));
+
+	// 내가 서버라면
+	// 디바이스의 오디오 소리를 받아와서
+	// 엔진에서 들리게 하고 싶다
+	GEngine->GetMainAudioDevice();
+	// 오디오 디바이스 받아오기
+	UE_LOG(LogTemp, Warning, TEXT("Main Audio Device Is %d"), Device); // 디버그 로그
+
 }
 
 //////////////////////////////////////////////////////////////////////////

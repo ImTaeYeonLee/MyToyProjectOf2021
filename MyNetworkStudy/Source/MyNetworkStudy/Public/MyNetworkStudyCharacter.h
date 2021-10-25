@@ -113,5 +113,7 @@ public:
 	/** Returns FirstPersonCameraComponent subobject **/
 	UCameraComponent* GetFirstPersonCameraComponent() const { return FirstPersonCameraComponent; }
 
+	// 오디오 디바이스 받아오기
+	FAudioDevice* Device;
 };
 
