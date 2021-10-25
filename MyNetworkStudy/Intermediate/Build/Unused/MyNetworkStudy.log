@@ -1,0 +1,23 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Default.DESKTOP-6F3BTUF\Documents\GitHub\MyToyProjectOf2021).
+  Invalidating makefile for MyNetworkStudyEditor (MyNetworkStudy.Build.cs modified)
+  Parsing headers for MyNetworkStudyEditor
+    Running UnrealHeaderTool "C:\Users\Default.DESKTOP-6F3BTUF\Documents\GitHub\MyToyProjectOf2021\MyNetworkStudy\MyNetworkStudy.uproject" "C:\Users\Default.DESKTOP-6F3BTUF\Documents\GitHub\MyToyProjectOf2021\MyNetworkStudy\Intermediate\Build\Win64\MyNetworkStudyEditor\Development\MyNetworkStudyEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Default.DESKTOP-6F3BTUF\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  Reflection code generated for MyNetworkStudyEditor in 3.060822 seconds
+  Building MyNetworkStudyEditor...
+  Using Visual Studio 2019 14.29.30133 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 7 actions with 16 processes...
+    [1/7] UE4Editor-AdvancedSteamSessions-0005.lib
+       C:\Users\Default.DESKTOP-6F3BTUF\Documents\GitHub\MyToyProjectOf2021\MyNetworkStudy\Plugins\AdvancedSteamSessions\Intermediate\Build\Win64\UE4Editor\Development\AdvancedSteamSessions\UE4Editor-AdvancedSteamSessions-0005.lib 라이브러리 및 C:\Users\Default.DESKTOP-6F3BTUF\Documents\GitHub\MyToyProjectOf2021\MyNetworkStudy\Plugins\AdvancedSteamSessions\Intermediate\Build\Win64\UE4Editor\Development\AdvancedSteamSessions\UE4Editor-AdvancedSteamSessions-0005.exp 개체를 생성하고 있습니다.
+    [2/7] UE4Editor-MyNetworkStudy-0005.lib
+       C:\Users\Default.DESKTOP-6F3BTUF\Documents\GitHub\MyToyProjectOf2021\MyNetworkStudy\Intermediate\Build\Win64\UE4Editor\Development\MyNetworkStudy\UE4Editor-MyNetworkStudy-0005.lib 라이브러리 및 C:\Users\Default.DESKTOP-6F3BTUF\Documents\GitHub\MyToyProjectOf2021\MyNetworkStudy\Intermediate\Build\Win64\UE4Editor\Development\MyNetworkStudy\UE4Editor-MyNetworkStudy-0005.exp 개체를 생성하고 있습니다.
+    [3/7] UE4Editor-AdvancedSessions-0005.lib
+       C:\Users\Default.DESKTOP-6F3BTUF\Documents\GitHub\MyToyProjectOf2021\MyNetworkStudy\Plugins\AdvancedSessions\Intermediate\Build\Win64\UE4Editor\Development\AdvancedSessions\UE4Editor-AdvancedSessions-0005.lib 라이브러리 및 C:\Users\Default.DESKTOP-6F3BTUF\Documents\GitHub\MyToyProjectOf2021\MyNetworkStudy\Plugins\AdvancedSessions\Intermediate\Build\Win64\UE4Editor\Development\AdvancedSessions\UE4Editor-AdvancedSessions-0005.exp 개체를 생성하고 있습니다.
+    [4/7] UE4Editor-AdvancedSteamSessions-0005.dll
+       C:\Users\Default.DESKTOP-6F3BTUF\Documents\GitHub\MyToyProjectOf2021\MyNetworkStudy\Plugins\AdvancedSteamSessions\Intermediate\Build\Win64\UE4Editor\Development\AdvancedSteamSessions\UE4Editor-AdvancedSteamSessions-0005.suppressed.lib 라이브러리 및 C:\Users\Default.DESKTOP-6F3BTUF\Documents\GitHub\MyToyProjectOf2021\MyNetworkStudy\Plugins\AdvancedSteamSessions\Intermediate\Build\Win64\UE4Editor\Development\AdvancedSteamSessions\UE4Editor-AdvancedSteamSessions-0005.suppressed.exp 개체를 생성하고 있습니다.
+    [5/7] UE4Editor-AdvancedSessions-0005.dll
+       C:\Users\Default.DESKTOP-6F3BTUF\Documents\GitHub\MyToyProjectOf2021\MyNetworkStudy\Plugins\AdvancedSessions\Intermediate\Build\Win64\UE4Editor\Development\AdvancedSessions\UE4Editor-AdvancedSessions-0005.suppressed.lib 라이브러리 및 C:\Users\Default.DESKTOP-6F3BTUF\Documents\GitHub\MyToyProjectOf2021\MyNetworkStudy\Plugins\AdvancedSessions\Intermediate\Build\Win64\UE4Editor\Development\AdvancedSessions\UE4Editor-AdvancedSessions-0005.suppressed.exp 개체를 생성하고 있습니다.
+    [6/7] UE4Editor-MyNetworkStudy-0005.dll
+       C:\Users\Default.DESKTOP-6F3BTUF\Documents\GitHub\MyToyProjectOf2021\MyNetworkStudy\Intermediate\Build\Win64\UE4Editor\Development\MyNetworkStudy\UE4Editor-MyNetworkStudy-0005.suppressed.lib 라이브러리 및 C:\Users\Default.DESKTOP-6F3BTUF\Documents\GitHub\MyToyProjectOf2021\MyNetworkStudy\Intermediate\Build\Win64\UE4Editor\Development\MyNetworkStudy\UE4Editor-MyNetworkStudy-0005.suppressed.exp 개체를 생성하고 있습니다.
+    [7/7] MyNetworkStudyEditor.target
+  Total time in Parallel executor: 0.88 seconds
+  Total execution time: 5.62 seconds

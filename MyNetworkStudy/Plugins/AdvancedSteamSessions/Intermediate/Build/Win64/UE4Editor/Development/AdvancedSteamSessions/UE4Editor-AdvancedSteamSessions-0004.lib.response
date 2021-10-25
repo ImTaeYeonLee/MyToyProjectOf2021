@@ -6,9 +6,9 @@
 /NAME:"UE4Editor-AdvancedSteamSessions-0004.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"C:\Users\TFG5076XG\Documents\GitHub\MyToyProjectOf2021\MyNetworkStudy\Intermediate\Build\Win64\MyNetworkStudyEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
-"C:\Users\TFG5076XG\Documents\GitHub\MyToyProjectOf2021\MyNetworkStudy\Plugins\AdvancedSteamSessions\Intermediate\Build\Win64\UE4Editor\Development\AdvancedSteamSessions\Module.AdvancedSteamSessions.cpp.obj"
-"C:\Users\TFG5076XG\Documents\GitHub\MyToyProjectOf2021\MyNetworkStudy\Plugins\AdvancedSteamSessions\Intermediate\Build\Win64\UE4Editor\Development\AdvancedSteamSessions\Module.AdvancedSteamSessions.gen.cpp.obj"
-"C:\Users\TFG5076XG\Documents\GitHub\MyToyProjectOf2021\MyNetworkStudy\Plugins\AdvancedSteamSessions\Intermediate\Build\Win64\UE4Editor\Development\AdvancedSteamSessions\Default.rc2.res"
-/OUT:"C:\Users\TFG5076XG\Documents\GitHub\MyToyProjectOf2021\MyNetworkStudy\Plugins\AdvancedSteamSessions\Intermediate\Build\Win64\UE4Editor\Development\AdvancedSteamSessions\UE4Editor-AdvancedSteamSessions-0004.lib"
+"C:\Users\Default.DESKTOP-6F3BTUF\Documents\GitHub\MyToyProjectOf2021\MyNetworkStudy\Intermediate\Build\Win64\MyNetworkStudyEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\Default.DESKTOP-6F3BTUF\Documents\GitHub\MyToyProjectOf2021\MyNetworkStudy\Plugins\AdvancedSteamSessions\Intermediate\Build\Win64\UE4Editor\Development\AdvancedSteamSessions\Module.AdvancedSteamSessions.cpp.obj"
+"C:\Users\Default.DESKTOP-6F3BTUF\Documents\GitHub\MyToyProjectOf2021\MyNetworkStudy\Plugins\AdvancedSteamSessions\Intermediate\Build\Win64\UE4Editor\Development\AdvancedSteamSessions\Module.AdvancedSteamSessions.gen.cpp.obj"
+"C:\Users\Default.DESKTOP-6F3BTUF\Documents\GitHub\MyToyProjectOf2021\MyNetworkStudy\Plugins\AdvancedSteamSessions\Intermediate\Build\Win64\UE4Editor\Development\AdvancedSteamSessions\Default.rc2.res"
+/OUT:"C:\Users\Default.DESKTOP-6F3BTUF\Documents\GitHub\MyToyProjectOf2021\MyNetworkStudy\Plugins\AdvancedSteamSessions\Intermediate\Build\Win64\UE4Editor\Development\AdvancedSteamSessions\UE4Editor-AdvancedSteamSessions-0004.lib"
 /INCLUDE:IMPLEMENT_MODULE_AdvancedSteamSessions
