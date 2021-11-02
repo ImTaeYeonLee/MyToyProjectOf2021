@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\Default.DESKTOP-6F3BTUF\\Documents\\GitHub\\MyToyProjectOf2021\\Compleate_MyNetworkStudy_SteamServer\\Compleate_MyNetworkStudy_SteamServer\\Source\\MyNetworkStudy\\MyNetworkStudy.Build.cs",
+		"C:\\Users\\Default.DESKTOP-6F3BTUF\\Documents\\GitHub\\MyToyProjectOf2021\\Compleate_MyNetworkStudy_SteamServer\\Compleate_MyNetworkStudy_SteamServer\\Source\\MyNetworkStudy.Target.cs",
+		"C:\\Users\\Default.DESKTOP-6F3BTUF\\Documents\\GitHub\\MyToyProjectOf2021\\Compleate_MyNetworkStudy_SteamServer\\Compleate_MyNetworkStudy_SteamServer\\Source\\MyNetworkStudyEditor.Target.cs"
+	],
+	"EngineVersion": "4.26.2"
+}

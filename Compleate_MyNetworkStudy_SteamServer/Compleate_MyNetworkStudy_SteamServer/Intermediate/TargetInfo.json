@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "MyNetworkStudy",
+			"Path": "C:\\Users\\Default.DESKTOP-6F3BTUF\\Documents\\GitHub\\MyToyProjectOf2021\\Compleate_MyNetworkStudy_SteamServer\\Compleate_MyNetworkStudy_SteamServer\\Source\\MyNetworkStudy.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "MyNetworkStudyEditor",
+			"Path": "C:\\Users\\Default.DESKTOP-6F3BTUF\\Documents\\GitHub\\MyToyProjectOf2021\\Compleate_MyNetworkStudy_SteamServer\\Compleate_MyNetworkStudy_SteamServer\\Source\\MyNetworkStudyEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

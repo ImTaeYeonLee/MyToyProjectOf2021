@@ -1,0 +1,3 @@
+﻿  Creating makefile for MyNetworkStudyEditor (no existing makefile)
+UnrealBuildTool : error : Unable to find plugin 'AdvancedSessions' (referenced via MyNetworkStudy.uproject). Install it and try again, or remove it from the required plugin list.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(45,5): error MSB3073: ""C:\Program Files\Epic Games\UE_4.26\Engine\Build\BatchFiles\Build.bat" MyNetworkStudyEditor Win64 Development -Project="C:\Users\Default.DESKTOP-6F3BTUF\Documents\GitHub\MyToyProjectOf2021\Compleate_MyNetworkStudy_SteamServer\Compleate_MyNetworkStudy_SteamServer\MyNetworkStudy.uproject" -WaitMutex -FromMsBuild" 명령이 종료되었습니다(코드: 6).

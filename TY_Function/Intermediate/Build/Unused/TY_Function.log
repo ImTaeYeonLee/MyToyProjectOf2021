@@ -1,18 +1,44 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Default.DESKTOP-6F3BTUF\Documents\GitHub\MyToyProjectOf2021).
+  Creating makefile for TY_FunctionEditor (no existing makefile)
   Parsing headers for TY_FunctionEditor
     Running UnrealHeaderTool "C:\Users\Default.DESKTOP-6F3BTUF\Documents\GitHub\MyToyProjectOf2021\TY_Function\TY_Function.uproject" "C:\Users\Default.DESKTOP-6F3BTUF\Documents\GitHub\MyToyProjectOf2021\TY_Function\Intermediate\Build\Win64\TY_FunctionEditor\Development\TY_FunctionEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Default.DESKTOP-6F3BTUF\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-  Reflection code generated for TY_FunctionEditor in 2.8853495 seconds
+  Reflection code generated for TY_FunctionEditor in 9.5867178 seconds
   Building TY_FunctionEditor...
   Using Visual Studio 2019 14.29.30133 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 7 actions with 16 processes...
-    [1/7] ShootPlayer.cpp
-    [2/7] TY_CameraWheelActorComponent.gen.cpp
-    [3/7] TY_CameraWheelActorComponent.cpp
-    [4/7] TY_TestPawn.cpp
-    [5/7] UE4Editor-TY_Function-0037.lib
-       C:\Users\Default.DESKTOP-6F3BTUF\Documents\GitHub\MyToyProjectOf2021\TY_Function\Intermediate\Build\Win64\UE4Editor\Development\TY_Function\UE4Editor-TY_Function-0037.lib 라이브러리 및 C:\Users\Default.DESKTOP-6F3BTUF\Documents\GitHub\MyToyProjectOf2021\TY_Function\Intermediate\Build\Win64\UE4Editor\Development\TY_Function\UE4Editor-TY_Function-0037.exp 개체를 생성하고 있습니다.
-    [6/7] UE4Editor-TY_Function-0037.dll
-       C:\Users\Default.DESKTOP-6F3BTUF\Documents\GitHub\MyToyProjectOf2021\TY_Function\Intermediate\Build\Win64\UE4Editor\Development\TY_Function\UE4Editor-TY_Function-0037.suppressed.lib 라이브러리 및 C:\Users\Default.DESKTOP-6F3BTUF\Documents\GitHub\MyToyProjectOf2021\TY_Function\Intermediate\Build\Win64\UE4Editor\Development\TY_Function\UE4Editor-TY_Function-0037.suppressed.exp 개체를 생성하고 있습니다.
-    [7/7] TY_FunctionEditor.target
-  Total time in Parallel executor: 6.63 seconds
-  Total execution time: 10.04 seconds
+  Building 32 actions with 16 processes...
+    [1/32] SharedPCH.Engine.ShadowErrors.cpp
+    [2/32] VRHandAnimInstance.cpp
+    [3/32] ShootPlayer.gen.cpp
+    [4/32] HandActorComponent.gen.cpp
+    [5/32] HandActorComponent.cpp
+    [6/32] MoveActorComponent.gen.cpp
+    [7/32] PickUpActor.cpp
+    [8/32] VRHandAnimInstance.gen.cpp
+    [9/32] TY_CameraActorComponent.gen.cpp
+    [10/32] GrabActorComponent.gen.cpp
+    [11/32] VR_Player.gen.cpp
+    [12/32] TY_FunctionGameMode.cpp
+    [13/32] TY_FunctionGameMode.gen.cpp
+    [14/32] TY_MoveActorComponent.cpp
+    [15/32] TY_FunctionCharacter.gen.cpp
+    [16/32] TY_Function.cpp
+    [17/32] TY_MoveActorComponent.gen.cpp
+    [18/32] MoveActorComponent.cpp
+    [19/32] TY_Function.init.gen.cpp
+    [20/32] TY_CameraWheelActorComponent.gen.cpp
+    [21/32] VR_Player.cpp
+    [22/32] PickUpActor.gen.cpp
+    [23/32] TY_TestPawn.gen.cpp
+    [24/32] ShootPlayer.cpp
+    [25/32] TY_CameraWheelActorComponent.cpp
+    [26/32] TY_CameraActorComponent.cpp
+    [27/32] GrabActorComponent.cpp
+    [28/32] TY_TestPawn.cpp
+    [29/32] TY_FunctionCharacter.cpp
+    [30/32] UE4Editor-TY_Function.lib
+       C:\Users\Default.DESKTOP-6F3BTUF\Documents\GitHub\MyToyProjectOf2021\TY_Function\Intermediate\Build\Win64\UE4Editor\Development\TY_Function\UE4Editor-TY_Function.lib 라이브러리 및 C:\Users\Default.DESKTOP-6F3BTUF\Documents\GitHub\MyToyProjectOf2021\TY_Function\Intermediate\Build\Win64\UE4Editor\Development\TY_Function\UE4Editor-TY_Function.exp 개체를 생성하고 있습니다.
+    [31/32] UE4Editor-TY_Function.dll
+       C:\Users\Default.DESKTOP-6F3BTUF\Documents\GitHub\MyToyProjectOf2021\TY_Function\Intermediate\Build\Win64\UE4Editor\Development\TY_Function\UE4Editor-TY_Function.suppressed.lib 라이브러리 및 C:\Users\Default.DESKTOP-6F3BTUF\Documents\GitHub\MyToyProjectOf2021\TY_Function\Intermediate\Build\Win64\UE4Editor\Development\TY_Function\UE4Editor-TY_Function.suppressed.exp 개체를 생성하고 있습니다.
+    [32/32] TY_FunctionEditor.target
+  Total time in Parallel executor: 24.85 seconds
+  Total execution time: 36.14 seconds

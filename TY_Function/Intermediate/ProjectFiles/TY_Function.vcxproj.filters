@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\TY_Function.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{383F0888-7757-4E2E-9DB2-B91ABC377C5C}</UniqueIdentifier>
+      <UniqueIdentifier>{6AA0A01B-503F-435F-B465-336920EA5E38}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TY_Function.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{0CC59CA2-B0E2-4AC5-9DF3-95DEC4CC6745}</UniqueIdentifier>
+      <UniqueIdentifier>{BBC19A57-3787-4395-AC9B-066FB4649C63}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,13 +30,13 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\TY_Function">
-      <UniqueIdentifier>{127B2E77-1A19-4649-9E76-5DEFF3268707}</UniqueIdentifier>
+      <UniqueIdentifier>{3EF41E23-9DE2-4E28-8592-BA73E9F9EA1F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TY_Function\TY_Function.Build.cs">
       <Filter>Source\TY_Function</Filter>
     </None>
     <Filter Include="Source\TY_Function\Private">
-      <UniqueIdentifier>{3F6EF169-676E-47F4-B00F-ECAE262D2286}</UniqueIdentifier>
+      <UniqueIdentifier>{ECD3FA0B-CBC0-44CF-8D56-48BB54B6E716}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\TY_Function\Private\GrabActorComponent.cpp">
       <Filter>Source\TY_Function\Private</Filter>
@@ -81,7 +81,7 @@
       <Filter>Source\TY_Function\Private</Filter>
     </ClCompile>
     <Filter Include="Source\TY_Function\Public">
-      <UniqueIdentifier>{C0AF941B-0096-4A66-A9E9-C78A7E20CC7A}</UniqueIdentifier>
+      <UniqueIdentifier>{7D8C0AB6-4988-440F-A1CE-42EC4E4265DB}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\TY_Function\Public\GrabActorComponent.h">
       <Filter>Source\TY_Function\Public</Filter>

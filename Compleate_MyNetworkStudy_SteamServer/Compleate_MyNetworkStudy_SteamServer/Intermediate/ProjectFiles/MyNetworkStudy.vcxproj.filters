@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\MyNetworkStudy.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{61C14CAB-7169-4CF6-A113-4C0B37EF54CD}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MyNetworkStudy.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\MyNetworkStudyEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{66F664B5-554C-49F9-97D5-0462549BA348}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\MyNetworkStudy">
+      <UniqueIdentifier>{AC1D75DF-0292-4096-98CF-62E420CB3703}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MyNetworkStudy\MyNetworkStudy.Build.cs">
+      <Filter>Source\MyNetworkStudy</Filter>
+    </None>
+    <Filter Include="Source\MyNetworkStudy\Private">
+      <UniqueIdentifier>{1E300D32-66EC-44EA-81F2-958A770DDDED}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MyNetworkStudy\Private\MyActor.cpp">
+      <Filter>Source\MyNetworkStudy\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyNetworkStudy\Private\MyNetworkStudy.cpp">
+      <Filter>Source\MyNetworkStudy\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyNetworkStudy\Private\MyNetworkStudyCharacter.cpp">
+      <Filter>Source\MyNetworkStudy\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyNetworkStudy\Private\MyNetworkStudyGameMode.cpp">
+      <Filter>Source\MyNetworkStudy\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyNetworkStudy\Private\MyNetworkStudyHUD.cpp">
+      <Filter>Source\MyNetworkStudy\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyNetworkStudy\Private\MyNetworkStudyProjectile.cpp">
+      <Filter>Source\MyNetworkStudy\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyNetworkStudy\Private\TY_AudioTest_GameModeBase.cpp">
+      <Filter>Source\MyNetworkStudy\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyNetworkStudy\Private\TY_AudioTest_HUD.cpp">
+      <Filter>Source\MyNetworkStudy\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyNetworkStudy\Private\TY_AudioTest_PlayerController.cpp">
+      <Filter>Source\MyNetworkStudy\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyNetworkStudy\Private\UW_Chat.cpp">
+      <Filter>Source\MyNetworkStudy\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyNetworkStudy\Private\UW_Main.cpp">
+      <Filter>Source\MyNetworkStudy\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\MyNetworkStudy\Public">
+      <UniqueIdentifier>{70013B75-1513-49E1-B45D-C72CEF01CA2E}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\MyNetworkStudy\Public\MyActor.h">
+      <Filter>Source\MyNetworkStudy\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MyNetworkStudy\Public\MyNetworkStudy.h">
+      <Filter>Source\MyNetworkStudy\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MyNetworkStudy\Public\MyNetworkStudyCharacter.h">
+      <Filter>Source\MyNetworkStudy\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MyNetworkStudy\Public\MyNetworkStudyGameMode.h">
+      <Filter>Source\MyNetworkStudy\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MyNetworkStudy\Public\MyNetworkStudyHUD.h">
+      <Filter>Source\MyNetworkStudy\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MyNetworkStudy\Public\MyNetworkStudyProjectile.h">
+      <Filter>Source\MyNetworkStudy\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MyNetworkStudy\Public\TY_AudioTest_GameModeBase.h">
+      <Filter>Source\MyNetworkStudy\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MyNetworkStudy\Public\TY_AudioTest_HUD.h">
+      <Filter>Source\MyNetworkStudy\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MyNetworkStudy\Public\TY_AudioTest_PlayerController.h">
+      <Filter>Source\MyNetworkStudy\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MyNetworkStudy\Public\UW_Chat.h">
+      <Filter>Source\MyNetworkStudy\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MyNetworkStudy\Public\UW_Main.h">
+      <Filter>Source\MyNetworkStudy\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

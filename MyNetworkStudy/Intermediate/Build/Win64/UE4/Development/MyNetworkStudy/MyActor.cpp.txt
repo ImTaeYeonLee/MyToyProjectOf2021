@@ -1,3 +1,0 @@
-C:\Users\Default.DESKTOP-6F3BTUF\Documents\GitHub\MyToyProjectOf2021\MyNetworkStudy\Intermediate\Build\Win64\UE4\Development\MyNetworkStudy\Definitions.MyNetworkStudy.h
-C:\Users\Default.DESKTOP-6F3BTUF\Documents\GitHub\MyToyProjectOf2021\MyNetworkStudy\Source\MyNetworkStudy\Public\MyActor.h
-C:\Users\Default.DESKTOP-6F3BTUF\Documents\GitHub\MyToyProjectOf2021\MyNetworkStudy\Intermediate\Build\Win64\UE4\Inc\MyNetworkStudy\MyActor.generated.h
