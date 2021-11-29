@@ -3,7 +3,7 @@
 #include "MyNetworkStudyCharacter.h"
 #include "MyNetworkStudyProjectile.h"
 #include <Engine/Engine.h>
-#include "AudioDeviceManager.h"
+//#include "AudioDeviceManager.h"
 #include "Animation/AnimInstance.h"
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
@@ -68,9 +68,9 @@ void AMyNetworkStudyCharacter::BeginPlay()
 	// 내가 서버라면
 	// 디바이스의 오디오 소리를 받아와서
 	// 엔진에서 들리게 하고 싶다
-	GEngine->GetMainAudioDevice();
+	//GEngine->GetMainAudioDevice();
 	// 오디오 디바이스 받아오기
-	UE_LOG(LogTemp, Warning, TEXT("Main Audio Device Is %d"), Device); // 디버그 로그
+	//UE_LOG(LogTemp, Warning, TEXT("Main Audio Device Is %d"), Device); // 디버그 로그
 
 }
 
@@ -95,7 +95,7 @@ void AMyNetworkStudyCharacter::SetupPlayerInputComponent(class UInputComponent* 
 
 	// We have 2 versions of the rotation bindings to handle different kinds of devices differently
 	// "turn" handles devices that provide an absolute delta, such as a mouse.
-	// "turnrate" is for devices that we choose to treat as a rate of change, such as an analog joystick
+	// "turnrate" is for s that we choose to treat as a rate of change, such as an analog joystick
 	PlayerInputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
 	PlayerInputComponent->BindAxis("TurnRate", this, &AMyNetworkStudyCharacter::TurnAtRate);
 	PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
